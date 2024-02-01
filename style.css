@@ -1,0 +1,197 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+    background:#fff;
+}
+
+.beltA{
+    box-shadow:10px 10px 35px;
+    width:10rem;
+    height:15rem;
+    background-color:black;
+    margin-left:40rem;
+}
+.body{
+    box-shadow:10px 10px 35px;
+    width:20rem;
+    height:20rem;
+    background-color:black;
+    margin-left:35rem;
+    border-radius:2rem;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+}
+
+.screen{
+    width:18rem;
+    height:7rem;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    border-radius:0.5rem;
+    margin-top:3rem;
+   margin-left:1.2rem;
+   text-shadow:25px 25px  35px red;
+}
+.screen nav{
+float:left;
+display:flex;
+}
+nav{
+    color:red;
+    font-family:system-ui;
+}
+#hrs{
+    font-size:5rem;
+    margin-left:0.5rem;
+    font-weight:bold;
+}
+#min{
+    font-size:5rem;
+    margin-left:0.5rem;
+    font-weight:bold;
+}
+#sec{
+    font-size:2rem;
+    margin-left:0.5rem;
+}
+#dots{
+    color:red;
+    font-size:5rem;
+    font-weight:bold;
+}
+
+.text{
+    color:red;
+    font-size:1rem;
+    font-family:system-ui;
+    text-align:center;
+    margin-top:4rem;
+    font-weight:bold;
+}
+
+@media screen and (max-width:768px){
+.body{
+    height:10rem;
+    width:10rem;
+    font-size:1rem;
+    margin-left:19rem;
+    flex-wrap:wrap;
+    justify-content:center;
+    border-radius:0.7rem;
+}
+.beltA{
+    width:5rem;
+    height:15.5rem;
+    justify-content:center;
+    margin-left:21.4rem;
+}
+
+#hrs{
+    font-size:2rem;
+    margin-left:0.5rem;
+    font-weight:bold;
+}
+#min{
+    font-size:2rem;
+    margin-left:0.5rem;
+    font-weight:bold;
+}
+#sec{
+    font-size:0.7rem;
+    margin-left:0.5rem;
+}
+#dots{
+    color:red;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.text{
+    color:red;
+    font-size:0.5rem;
+    font-family:system-ui;
+    text-align:center;
+    margin-top:2rem;
+    font-weight:bold;
+}
+
+.screen{
+    width:8rem;
+    height:3rem;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    border-radius:0.5rem;
+    margin-top:3rem;
+   margin-left:1.2rem;
+   text-shadow:25px 25px  35px red;
+}
+
+}
+
+@media screen and (max-width:480px){
+    .body{
+        height:25rem;
+        border-radius:2rem;
+        width:25rem;
+        font-size:5rem;
+        margin-left:2rem;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+    .beltA{
+        width:15rem;
+        height:10rem;
+        justify-content:center;
+        margin-left:7rem;
+    }
+    
+    #hrs{
+        font-size:6.5rem;
+        margin-left:0.5rem;
+        font-weight:bold;
+    }
+    #min{
+        font-size:6.5rem;
+        margin-left:0.5rem;
+        font-weight:bold;
+    }
+    #sec{
+        font-size:2.5rem;
+        margin-left:0.5rem;
+    }
+    #dots{
+        color:red;
+        font-size:6.5rem;
+        font-weight:bold;
+    }
+    
+    .text{
+        color:red;
+        font-size:1.5rem;
+        font-family:system-ui;
+        text-align:center;
+        margin-top:2rem;
+        font-weight:bold;
+    }
+    
+    .screen{
+        width:23rem;
+        height:15rem;
+        justify-content:center;
+        align-items:center;
+        background-color:black;
+        border-radius:0.5rem;
+        margin-top:3rem;
+       margin-left:1.2rem;
+       text-shadow:25px 25px  35px red;
+    }
+    
+    }
+    
+    
